@@ -7,7 +7,13 @@ body {
   position: relative;
   overflow: hidden;
 }
-svg#lovecow_player {
+/*#lovecow {
+  position: relative;
+}*/
+#lovecow nav {
+  display: none;
+}
+#lovecow svg#player {
   position: absolute;
   top: 50%;
   -webkit-transform: translateY(-50%);
